@@ -16,4 +16,4 @@ if "%buildJars%"=="true" (
 )
 
 echo "launching aoc command '%*'"
-%JAVA_HOME%\bin\java -jar "%aocJar%" %*
+"%JAVA_HOME%\bin\java" -jar "%aocJar%" %*
